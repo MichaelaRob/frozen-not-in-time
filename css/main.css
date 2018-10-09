@@ -1,6 +1,7 @@
 html {
   font-family: 'Fredoka One', cursive;
   background-image: repeating-linear-gradient(-40deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  background-size: cover;
 }
 
 h1 {
