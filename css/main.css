@@ -5,13 +5,19 @@ html {
 
 h1 {
   color: #990073;
+  transform: rotate(-10deg) translate(20px, 100px);
   transform-origin: left center;
 }
 
 p {
   color: #c09;
   max-width: 19em;
+  transform: rotate(-5deg) translate(40px, 75px);
   transform-origin: left center;
+}
+
+a {
+  transform: translate(45px, 70px);
 }
 
 .btn {
