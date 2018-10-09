@@ -5,8 +5,24 @@ html {
 
 h1 {
   color: #990073;
+  transform-origin: left center;
 }
 
 p {
   color: #c09;
+  max-width: 19em;
+  transform-origin: left center;
+}
+
+.btn {
+  color: #c09;
+}
+
+.btn-ghost {
+  border-color: #990073;
+}
+
+a:hover {
+  border-color: #990073;
+  background-color:
 }
