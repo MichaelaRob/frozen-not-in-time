@@ -32,3 +32,35 @@ a:hover {
   border-color: #990073;
   background-color:
 }
+
+.imgs {
+  transform: scale(.5);
+}
+
+.cherry {
+  transform: translateY(-150px);
+  position: absolute;
+  z-index: 10;
+}
+
+.vanilla {
+  transform: translateY(-35px);
+  position: absolute;
+  z-index: 5;
+}
+
+.chocolate {
+  transform: translate(15px, 90px);
+  position: absolute;
+  z-index: 2;
+}
+
+.mint {
+  transform: translateY(210px);
+  position: absolute;
+}
+
+.cone {
+  transform: translateY(360px);
+  position: absolute;
+}
