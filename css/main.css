@@ -9,14 +9,14 @@ html {
 
 h1 {
   color: #990073;
-  transform: rotate(-8deg) translateY(120px) scale(1.25);
+  transform: rotate(-8deg) translateY(117px) scale(1.25);
   transform-origin: left center;
 }
 
 p {
   color: #c09;
   max-width: 19em;
-  transform: rotate(-4deg) translate(12px, 95px);
+  transform: rotate(-4deg) translate(11px, 95px);
   transform-origin: left center;
 }
 
@@ -42,30 +42,30 @@ a:hover {
 }
 
 .cherry {
-  transform: translate(-35px, -100px);
+  transform: translate(-40px, -115px);
   position: absolute;
   z-index: 10;
 }
 
 .vanilla {
-  transform: translate(-35px, 5px);
+  transform: translate(-40px, -2px);
   position: absolute;
   z-index: 5;
 }
 
 .chocolate {
-  transform: translate(-28px, 125px);
+  transform: translate(-35px, 120px);
   position: absolute;
   z-index: 2;
 }
 
 .mint {
-  transform: translate(-35px, 250px);
+  transform: translate(-40px, 250px);
   position: absolute;
 }
 
 .cone {
-  transform: translate(-35px, 400px);
+  transform: translate(-40px, 400px);
   position: absolute;
 }
 
