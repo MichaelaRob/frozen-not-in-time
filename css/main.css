@@ -13,12 +13,12 @@ h1 {
 p {
   color: #c09;
   max-width: 19em;
-  transform: rotate(-4deg) translate(10px, 90px);
+  transform: rotate(-4deg) translate(12px, 95px);
   transform-origin: left center;
 }
 
 a {
-  transform: translate(20px, 100px);
+  transform: translate(22px, 100px);
 }
 
 .btn {
@@ -39,29 +39,35 @@ a:hover {
 }
 
 .cherry {
-  transform: translate(-30px, -100px);
+  transform: translate(-35px, -100px);
   position: absolute;
   z-index: 10;
 }
 
 .vanilla {
-  transform: translate(-30px, 5px);
+  transform: translate(-35px, 5px);
   position: absolute;
   z-index: 5;
 }
 
 .chocolate {
-  transform: translate(-20px, 130px);
+  transform: translate(-25px, 130px);
   position: absolute;
   z-index: 2;
 }
 
 .mint {
-  transform: translate(-30px, 250px);
+  transform: translate(-35px, 250px);
   position: absolute;
 }
 
 .cone {
-  transform: translate(-30px, 400px);
+  transform: translate(-35px, 400px);
   position: absolute;
 }
+
+/**
+ {
+  min-height: 600px;
+}
+/**bottom when hidden is 0**/
