@@ -66,7 +66,7 @@ a:hover {
 .cone {
   transform: translate(-40px, 380px);
   position: absolute;
-  animation: cone 3s 1s ease-in-out;
+  animation: cone 1.5s 1s ease-in-out;
 }
 
 @keyframes cone {
