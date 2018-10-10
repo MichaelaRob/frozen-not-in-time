@@ -2,6 +2,9 @@ html {
   font-family: 'Fredoka One', cursive;
   background-image: repeating-linear-gradient(-40deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   background-size: cover;
+  border-top-color: #b3fbff;
+  border-top-style: solid;
+  border-top-width: 10px;
 }
 
 h1 {
@@ -51,7 +54,7 @@ a:hover {
 }
 
 .chocolate {
-  transform: translate(-25px, 130px);
+  transform: translate(-28px, 125px);
   position: absolute;
   z-index: 2;
 }
