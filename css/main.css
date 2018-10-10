@@ -34,7 +34,6 @@ a {
 
 a:hover {
   border-color: #990073;
-  background-color:
 }
 
 .imgs {
@@ -67,17 +66,17 @@ a:hover {
 .cone {
   transform: translate(-40px, 380px);
   position: absolute;
-  animation: cone 3s 1s linear;
+  animation: cone 3s 1s ease-in-out;
 }
 
 @keyframes cone {
   0% {
-    transform: translate(-40px, 0);
+    transform: translate(-40px);
     bottom: 100%;
   }
 
   100% {
-    transform: translateY(-40px, 380px);
+    transform: translate(-40px, 380px);
   }
 }
 
