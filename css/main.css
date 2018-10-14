@@ -5,6 +5,10 @@ html {
   border-top-color: #b3fbff;
   border-top-style: solid;
   border-top-width: 10px;
+  min-height: 700px;
+  border-bottom-color: #b3fbff;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
 }
 
 h1 {
@@ -61,21 +65,33 @@ a:hover {
 .mint {
   transform: translate(-40px, 225px);
   position: absolute;
+  animation: mint 1.5s 1.4s ease-in-out;
+}
+
+@keyframes mint {
+  from {
+    transform: translateX(-40px);
+    bottom: 100%;
+  }
+
+  to {
+    transform: translate(-40px, 225px);
+  }
 }
 
 .cone {
   transform: translate(-40px, 380px);
   position: absolute;
-  animation: cone 1.5s 1s ease-in-out;
+  animation: cone 1s 1s ease-in-out;
 }
 
 @keyframes cone {
-  0% {
-    transform: translate(-40px);
+  from {
+    transform: translateX(-40px);
     bottom: 100%;
   }
 
-  100% {
+  to {
     transform: translate(-40px, 380px);
   }
 }
