@@ -52,8 +52,9 @@ a:hover {
 }
 
 .cherry {
-  transform: translate(-40px, -320px);
   position: absolute;
+  bottom: 100%;
+  left: -40px;
   z-index: 10;
   animation: cherry .3s 2.5s ease-in;
   animation-fill-mode: forwards;
@@ -62,19 +63,19 @@ a:hover {
 @keyframes cherry {
 
   from {
-    transform: translate(-40px, -400px);
     bottom: 100%;
   }
 
   to {
-    transform: translate(-40px, -120px);
+    bottom: -150px;
   }
 
 }
 
 .vanilla {
-  transform: translate(-40px, -315px);
   position: absolute;
+  bottom: 100%;
+  left: -40px;
   z-index: 5;
   animation: vanilla .3s 2s ease-in;
   animation-fill-mode: forwards;
@@ -83,19 +84,19 @@ a:hover {
 @keyframes vanilla {
 
   from {
-    transform: translate(-40px, -300px);
     bottom: 100%;
   }
 
   to {
-    transform: translate(-40px, -10px);
+    bottom: -255px;
   }
 
 }
 
 .chocolate {
-  transform: translate(-30px, -315px);
   position: absolute;
+  bottom: 100%;
+  left: -30px;
   z-index: 2;
   animation: chocolate .3s 1.5s ease-in;
   animation-fill-mode: forwards;
@@ -104,19 +105,19 @@ a:hover {
 @keyframes chocolate {
 
   from {
-    transform: translate(-30px, -200px);
     bottom: 100%;
   }
 
   to {
-    transform: translate(-30px, 105px);
+    bottom: -370px;
   }
 
 }
 
 .mint {
-  transform: translate(-40px, -315px);
   position: absolute;
+  bottom: 100%;
+  left: -40px;
   animation: mint .3s 1s ease-in;
   animation-fill-mode: forwards;
 }
@@ -124,19 +125,19 @@ a:hover {
 @keyframes mint {
 
   from {
-    transform: translate(-40px, -85px);
-    bottom: 0%;
+    bottom: 100%;
   }
 
   to {
-    transform: translate(-40px, 225px);
+    bottom: -485px;
   }
 
 }
 
 .cone {
-  transform: translate(-40px, 375px);
   position: absolute;
+  bottom: 100%;
+  left: -40px;
   animation: cone .3s .5s ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -148,7 +149,7 @@ a:hover {
   }
 
   to {
-    bottom: -255px;
+    bottom: -635px;
   }
 
 }
