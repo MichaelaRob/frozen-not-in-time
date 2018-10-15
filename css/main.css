@@ -135,7 +135,7 @@ a:hover {
 }
 
 .cone {
-  transform: translate(-40px, -350px);
+  transform: translate(-40px, 375px);
   position: absolute;
   animation: cone .3s .5s ease-in-out;
   animation-fill-mode: forwards;
@@ -143,13 +143,12 @@ a:hover {
 
 @keyframes cone {
 
-  from {
-    transform: translate(-40px, -75px);
-    bottom: 0%;
+  0% {
+    bottom: 100%;
   }
 
   to {
-    transform: translate(-40px, 375px);
+    bottom: -255px;
   }
 
 }
