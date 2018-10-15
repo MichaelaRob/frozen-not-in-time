@@ -146,6 +146,7 @@ a:hover {
 @keyframes text {
   from {
     opacity: 0;
+    filter: blur(50px);
   }
 
   to {
